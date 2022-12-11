@@ -1,0 +1,298 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 400;
+}
+.wrap {
+    width: 1920px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}  
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+.main {
+    margin: 0;
+    height: 800px;
+    background: url(../img/bg/main_bg.jpg) center center/cover no-repeat;
+    padding: 39px 0 62px 0;
+}
+.logo .logo_img {
+    display: block;
+    margin: 0 auto;
+}
+.logo .logo_text{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: 14px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 41px;
+    line-height: 41px;
+    text-transform: uppercase;
+    color: #F9BF3B;
+    text-align: center;
+
+}
+.simple .title_big {
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 80px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+h1 {
+    margin-top: 53px;
+    margin-bottom: 21px;
+}
+h2.title {
+    margin: 21px 0;
+}
+.line {
+}
+
+.main .main_text {
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 22px;
+    color: #fff;
+    margin-bottom: 62px;
+    padding: 0 15px;
+}
+
+.main .main_text span {
+    text-transform: uppercase;
+    color: #F9BF3B;
+    font-weight: 600;
+}
+
+.main_btn {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 62px;
+    width: 343px;
+    height: 72px;
+    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    font-size: 21px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
+    cursor: pointer;
+}
+
+.more .more_img {
+    display: block;
+    margin: 0 auto;
+}
+.more .more_text{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.webinars {
+    height: 607px;
+    background-color: #EFEFEF;
+    padding-top: 85px;
+}
+
+.webinars_text {
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #252525;
+    text-align: center;
+}
+.webinars_text h3 {
+    font-style: normal;
+    font-size: 23px;
+    color: #4A4A4A;
+}
+.line {
+    margin: 18px 0;
+}
+.line_border {
+    width: 220px;
+    height: 7px;
+    margin: 0 auto;
+    background-color: #F9BF3B;
+}
+.webinars_screens {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.screen {
+    width: 342px;
+}
+.screen_text {
+    font-style: 15px;
+    margin-top: 20px;
+    text-align: center;
+}
+.optima {
+    position: relative;
+    height: 550px;
+    padding-top: 47px;
+}
+.img_optima {
+    z-index: 1;
+    display: block;
+    position: absolute;
+    width: 868px;
+    margin-left: 150px;
+}
+.text_optima {
+    position: absolute;
+    z-index: 2;
+    width: 750px;
+    text-align: left;
+    margin-left: 389px;
+}
+.text_optima_title {
+    margin-top: 61px;
+    font-weight: 600;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #299CBD;
+}
+.text_optima_main {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+    color: #4A4A4A;
+}
+.text_optima_main p{
+    margin-bottom: 10px;
+}
+.text_optima_main span {
+    font-weight: bold;
+}
+.learning {
+    height: 450px;
+    background: url(../img/bg/second_bg.jpg) center center/cover no-repeat;
+    z-index: 1;
+}
+.learning_text {
+    padding-top: 86px;
+}
+.learning_text_mine {
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #EFEFEF;
+    margin-bottom: 18px;
+}
+.learning_text_line {
+    width: 220px;
+    height: 7px;
+    margin: 0 auto;
+    background-color: #F9BF3B;
+}
+.learning_item {
+    margin-top: 39px;
+    display: flex;
+    justify-content: space-between;
+}
+.round {
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    background-color: #B4E2FF;
+    z-index: 1;
+}
+.learning_item_icon {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+.lerning_img {
+    position: absolute;
+    display: block;
+    z-index: 2;
+    margin-left: 25%;
+}
+.learning_item_text {
+    width: 220px;
+    position: absolute;
+    z-index: 3;
+    font-weight: 300;
+    font-size: 17px;
+    margin-left: -52px ;
+    margin-top: 217px;
+    color: #EFEFEF;
+    text-align: center;
+}
+.present {
+    height: 631px;
+    padding-top: 88px;
+    background-color: #EFEFEF;
+}
+.container {
+}
+.present_text {
+    width: 1080px;
+    font-size: 30px;
+    color: #252525;
+    text-align: center;
+    margin: 45px 0 51px 0;
+}
+
+.present_icon {
+    display: block;
+    margin: 0 auto;
+}
+.firt_webinar {
+    height: 512px;
+    padding-top: 89px;
+}
+
+.firs_webinar {
+    display: block;
+    margin: 0 auto;
+}
+.first_webinar_text {
+    margin-top: 36px;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+}
+.first_webinar_text span {
+    display: block;
+    font-size: 36px;
+    font-weight: 600;
+    color: #299CBD;
+    margin-top: 30px;
+}
+.first_webinar_text h3 {
+    text-transform: none;
+    margin-top: 25px;
+    font-size: 23px;
+}
+footer {
+    padding-top: 55px;
+    height: 166px;
+    background-color: #1A1A1A;
+    text-align: center;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #888888;
+}
+footer span {
+    text-decoration: underline;
+}
